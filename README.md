@@ -23,6 +23,11 @@ Using your favourite browser open
 
 > http://localhost:3000/
 
+
 Sign Up and enjoy
+
+#### Contributor
+
+* [Sumaer Jolly](https://github.com/sumaerjolly)
 
 
