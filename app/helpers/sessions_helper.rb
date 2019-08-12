@@ -7,6 +7,10 @@ module SessionsHelper
         @current_user = user
     end
 
+    def logged_in?
+        !current_user.nil?
+    end 
+
     private
 
     def set_current_user(user_id)

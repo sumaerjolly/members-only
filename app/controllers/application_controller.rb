@@ -11,8 +11,14 @@ class ApplicationController < ActionController::Base
     end
 
     def log_out
-        current_user = nil 
+        current_user = nil
         cookies.delete(:user_id)
+    end
+
+    def require_login
+        redirect_to sign_in_url unless logged_in?
     end 
+
+
 
 end
