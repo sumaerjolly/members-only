@@ -6,7 +6,6 @@ class User < ApplicationRecord
     validates :email, presence: true , format: { with: /\A[^@\s]+@([^@.\s]+\.)+[^@.\s]+\z/ }
     has_secure_password
 
-
     private
     def assign_remember_token
         token = SecureRandom.urlsafe_base64
