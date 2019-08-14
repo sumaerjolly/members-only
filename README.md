@@ -1,24 +1,31 @@
-# README
+# Rails Authentication
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+In this project I worked on my understanding of authentication in rails. The aim is to show posts authors only to signed in users.
 
-Things you may want to cover:
+## Getting Started
 
-* Ruby version
+Clone the repository to your local machine using:
 
-* System dependencies
+```
+$ git clone https://github.com/sumaerjolly/members-only.git
 
-* Configuration
+```
+Cd into that directory
 
-* Database creation
+```
+$ cd members-only
+$ bundle install
+$ rails db:reset
+$ rails server
 
-* Database initialization
+```
+Using your favourite browser open
 
-* How to run the test suite
+> http://localhost:3000/
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+Sign Up and enjoy
 
-* ...
+#### Contributor
+
+* [Sumaer Jolly](https://github.com/sumaerjolly)
