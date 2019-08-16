@@ -1,0 +1,11 @@
+<%= form_for(:session, url: sign_in_path) do |f| %>
+
+    <%= f.label :email %><br>
+    <%= f.email_field :email %><br>
+
+    <%= f.label :password %><br>
+    <%= f.password_field :password %><br>
+
+    <%= f.submit "Sign in" %><br>
+    <p>Not a member yet ? <%= link_to 'Sign up now!', sign_up_path %> </p>
+<% end %>
